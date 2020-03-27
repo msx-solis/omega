@@ -1,8 +1,10 @@
-# Omega Home Computer. Instrucciones para construir la Placa Base.
+﻿# Ordenador Casero Omega. Instrucciones para construir la Placa Base.
 
 ## Requisitos Previos.
 
 ## Herramientas, Equipo y Componentes
+N.d.T: Algunos nombres no serán traducidos a posta para no complicar su búsqueda en tiendas especificas que suele usar referencias en ingles.
+
 * Soldador de punta fina. Estación de soldadura con control de temperatura sería recomendable.
 * Alicates de punta fina para modificar las patillas de los componentes.
 * Alicates de corte lateral para cortar las patillas de los compponentes.
@@ -18,12 +20,12 @@
 ### Componentes
 
 ### Adquisición de los componentes
-La lista de componentes proporcionada en [Lista de componentes](Mainboard_es.md#lista-de-componentes) que forma parte de la sección del fichero [Mainboard_es.md](Mainboard_es.md). También aporta fuentes recomendadas para adquirir los componentes.
+La lista de componentes proporcionada en [Bill of Materials](Mainboard_es.md#lista-de-componentes) que forma parte de la sección del fichero [Mainboard_es.md](Mainboard_es.md). También aporta fuentes recomendables para adquirir los componentes.
 La mayoría de los componentes están disponibles en distribuidores habituales como [Mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccesID=11fd34d22c) y [Digi-key](https://www.digikey.com).
 Algunos componentes antiguos y fuera de producción están disponibles tanto en eBay como en páginas de recicladores y revendedores de componentes electrónicos chinos.
 
 Las placas (PCB) del Omega son facilitadas por los miembros de [RetroBrew Computers group](https://www.retrobrewcomputers.org/doku.php?id=boardinventory#omega_home_computer_project_sergey_kiselev).
-Como alternativa pueden ser encargarlas a una empresa de  fabricación de PCB usando los ficheros [Gerber](Mainboard/gerber) o [KiCad](Mainboard/KiCad) facilitados en este repositorio GitHub.
+Otra opción alternativa es encargarlas a una empresa de servicios de fabricación de PCB usando los ficheros [Gerber](Mainboard/gerber) o [Kicad](Mainboard/Kicad) facilitados en este repositorio GitHub.
 
 #### Remplazo de Componentes
 
@@ -83,7 +85,7 @@ Como alternativa pueden ser encargarlas a una empresa de  fabricación de PCB us
 4. Inspecciona cuidadosamente todas las soldaduras. Repasa las soldaduras que creas necesario. Opcionalmente usa un multímetro para buscar corto-circuitos de la placa y para medir la conectividad de la línea alimentación
 5. Limpia la PCB usando toallitas, bastoncillos de algodón y el cepillo de dientes mojados en alcohol.
 6. Programa la Flash ROM con la imagen de la BIOS (pendiente: añadir instrucciones de la imagen)
-7. Programa las SPLDs con el [esquema de fusibles SPLD](Mainboard/SPLD)
+7. Programa las SPLDs con el [esquemas de fusibles](Mainboard/SPLD)
 8. Inserta cuidadosamente los integrados en sus zócalos. Si no entran, usa una superficie libre de estática para doblar los pines de los integrados. Repasa la orientación de los integrados (IC). Asegúrate de que todos los pines del integrado entran en el zócalo y no se doblan.
 9. Inspecciona toda la placa una vez más.
 10. Instala los jumpers de configuración. Están referenciados en la sección [Jumpers](Mainboard_es.md#jumpers) del fichero [Mainboard_es.md](Mainboard_es.md)
@@ -114,4 +116,3 @@ Como alternativa pueden ser encargarlas a una empresa de  fabricación de PCB us
     * La señal SYNCIN en U47, Pin 10. Debería ser una señal a 15.734 kHz para NTSC y 15.625 kHz para PAL.
     * La señal SCIN en U47, Pin 6. Debería ser una señal a 3.579545 MHz para NTSC y 4.433618 MHz para PAL.
 * Las señales ROJO, VERDE y AZUL en U3 (VDP), Pines 23, 22 y 24 respectivamente.
-

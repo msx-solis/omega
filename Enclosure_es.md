@@ -12,7 +12,7 @@ El diseño presupone que será cortado de una lámina de 3mm de acrílico (o pl�
 
 El chasis se ha de ensamblar en el siguiente orden:
 
-1. Once tonrillos M3 x 12 se han de insertar en los agujeros del panel inferior
+1. Se insertan once tonrillos M3 x 12 en los agujeros del panel inferior (cara arriba)
 2. Se colocan arandelas de 3 mm en dichos tornillos en la cara superior del panel inferior
 3. Se inserta la placa base encima de las arandelas
 4. Se enroscan siete separadores M3 x 15 mm por encima de esos tornillos, excluyendo los agujeros proximos a los slots de cartucho
@@ -34,12 +34,13 @@ Tuercas            |           | M3 hex                            | 5        | 
 Panel Acrílico     |           | [Panel inferior](Enclosure/Omega-Eco1_User.dxf) | 1 | corte laser de 3mm en acrilico
 Panel Acrílico     |           | [Paneles superior, laterales, arandelas](Enclosure/Omega-Eco2_User.dxf) | 1 | corte laser de 3mm en acrilico
 Pieza impresa 3D   |           | [Guia de slots](Enclosure/Omega-Slots_Guide.stl) | 1 | (Opcional) impreso en 3D
-Switch             |           | Toggle Switch                     | 1        | (Optional) Mouser [612-100-A1121](https://www.mouser.com/ProductDetail/612-100-A1121). Se monta este interruptor en el panel posterior, y puede ser utilizado para cambiar entre dos mitades de la ROM, p.e. para cambiar entre BIOS MSX2 y C-BIOS. Opcionalmente, se puede montar un botón de reset en esa ubicación.
+Interruptor        |           | Interruptor de palanca                | 1        | (Opcional) Mouser [612-100-A1121](https://www.mouser.com/ProductDetail/612-100-A1121). Se monta este interruptor en el panel posterior, que sirve para seleccionar la BIOS de entre los dos segmentos de la ROM, p.e. para cambiar entre BIOS MSX2 y C-BIOS. Opcionalmente, se puede montar un botón de reset en esa ubicación.
 
 ## Notas de la versión
 
-## Cambios
+### Cambios
 * Version 1.0
   * Versión inicial
 
-## Problemas conocidos
+### Problemas conocidos
+
